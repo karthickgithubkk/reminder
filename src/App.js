@@ -1,4 +1,4 @@
-import React ,{useState} from 'react';
+import React,{useState} from 'react';
 import data from "./data";
 import List from "./List";
 import "./App.css";
@@ -14,7 +14,7 @@ const App = () => {
 <main>
 <section  className= "container"  >
 <List list= {list} deleteUser={deleteUser}  />
-<button onClick={()=> setList([])}  > Clear All</button>
+<button onClick={()=> setList([])}> Clear All</button>
 </section>
 
 </main>

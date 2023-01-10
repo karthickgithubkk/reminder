@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 
 const List = ({list,deleteUser}) => {
   return (
@@ -12,7 +12,7 @@ const List = ({list,deleteUser}) => {
 <div>
     <h4> {name} </h4>
     <h4> {age} </h4>
-    <button className="btn-delete" type= "button" onClick={()=> {deleteUser(id)}}  >Delete </button>
+    <button className="btn-delete" type= "button" onClick={()=> {deleteUser(id)}} >Delete </button>
 </div>
 
 
